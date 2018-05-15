@@ -28,6 +28,7 @@ h2 {
 	color: #40bf40;
 	font-family: helvetica;
 	font-size: 1em;
+	/*text-transform: uppercase;*/
 }
 
 p {
@@ -63,6 +64,7 @@ hr {
 
 footer {
 	font-size: x-small; 
+	font-weight: 300;
 }
 
 img.resize {
