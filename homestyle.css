@@ -1,7 +1,26 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #eae0d5;
+  padding-bottom: 5px;
+  position: relative;
   margin: 0 15%;
+  min-height: 100%;
   font-family: serif;
+}
+
+.body {
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 header {
@@ -65,9 +84,16 @@ hr {
   color: #599aba;
 }
 
-footer {
-  font-size: x-small; 
-  font-weight: 300;
+.footer {
+  font-size: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2px;
+  text-align: center;
+  color: #663300;
+  background-color: #e8ead5;
 }
 
 img.resize {
